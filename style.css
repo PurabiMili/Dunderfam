@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    color: #000000a3;
+}
+
+#open {
+    background-color: #b79d94;
+}
+
+body {
+    background-image: cover;
+}
+
+#submit {
+    background-color: cornflowerblue;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+/*dunderfam.html*/
+ul {
+    display: flex;
+    color: blue;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(202, 200, 200);
+    background-size: auto;
+    border: 2px solid white;
+    height: 50px;
+    border: 0;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#dunderfam {
+    background-image: url("dunder.jpg");
+    background-size: cover;
+}
+
+#Dwight {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    background-color: aliceblue;
+    background-image: url("dwight.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    text-align: center;
+}
+
+#Pamella {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    background-color: aliceblue;
+    background-image: url("pam.jpg");
+    background-size: auto 100%;
+    background-position: center;
+}
+
+#Michael {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    background-color: aliceblue;
+    background-image: url("michael.jpg");
+    background-size: auto 100%;
+    background-position: center;
+}
+
+#Angella {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    background-color: aliceblue;
+    background-image: url("angella.jpg");
+    background-size: auto 100%;
+    background-position: center;
+}
+
+#HR {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    background-color: aliceblue;
+    background-image: url("toby.jpg");
+    background-size: auto 100%;
+    background-position: center;
+}
+
+#Jim {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    background-color: aliceblue;
+    background-image: url("jim.jpg");
+    background-size: auto 100%;
+    background-position: center;
+}
+
+/*flex*/
+.container{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* transition:all 2s ease-in 1s; */
+}
+
+.zoom{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-pos{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer{
+    height: 30px;
+    background-color: rgb(202, 200, 200);
+}
+#logo{
+    text-align: center;
+}
+.zoom:hover{
+    transform: scale(1.2);
+    -webkit-transition: transform 0.5s ease-in-out;
+    font-size: 20px;
+}
+
+.zoom img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.border{
+    color: black;
+}
+
+.border:hover{
+    transform: scale(1.2);
+}
+
+.navbar{
+    border: 4px solid black;
+}
+
